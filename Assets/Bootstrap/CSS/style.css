@@ -1,11 +1,16 @@
 :root {
-    --defaultPadding: 25%;
+    --defaultPadding: 15%;
 }
 
 body {
     background-color: #161924;
+    font-family: 'Jost', sans-serif;
 }
 
 nav {
     background-color: #161924;
+}
+
+.px-15 {
+    padding: 0 var(--defaultPadding);
 }
