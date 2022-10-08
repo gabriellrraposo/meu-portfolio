@@ -2,3 +2,10 @@
     --defaultPadding: 25%;
 }
 
+body {
+    background-color: #161924;
+}
+
+nav {
+    background-color: #161924;
+}
