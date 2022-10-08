@@ -18,3 +18,8 @@ nav {
 .my-10 {
     margin: 10% 0;
 }
+
+#paragradoIntroducao {
+    font-size: 20px;
+    max-width: 350px;
+}
