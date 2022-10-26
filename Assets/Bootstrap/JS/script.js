@@ -1,22 +1,18 @@
-$(function() {
+let progressBar = document.querySelector(".circular-progress");
+let valueContainer = document.querySelector(".value-container");
 
-    $(".progress").each(function() {
+let progressValue = 0;
+let progressEndValue = 100;
+let speed = 50;
 
-    var value = $(this).attr('data-value');
-    var left = $(this).find('.progress-left .progress-bar');
-    var right = $(this).find('.progress-right .progress-bar');
-
-    if (value > 0) {
-        if (value <= 50) {
-        right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
-        } else {
-        right.css('transform', 'rotate(180deg)')
-        left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
-        }
-    }
-    })
-
-    function percentageToDegrees(percentage) {
-      return percentage / 100 * 360
-    }
-});
+let progress = setInterval(() => {
+  progressValue++;
+  valueContainer.textContent = `${progressValue}%`;
+  progressBar.style.background = `conic-gradient(
+      #4d5bf9 ${progressValue * 3.6}deg,
+      #cadcff ${progressValue * 3.6}deg
+  )`;
+  if (progressValue == progressEndValue) {
+    clearInterval(progress);
+  }
+}, speed);
