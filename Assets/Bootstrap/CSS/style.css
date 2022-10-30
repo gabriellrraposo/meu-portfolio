@@ -3,13 +3,15 @@
 }
 
 body {
-    background-color: #161924;
+    /* background-color: #161924; */
+    background: linear-gradient(100deg, black , #161924, #161924, #161924, #202435);
     font-family: 'Jost', sans-serif;
 }
 
-nav {
+header {
     background-color: #161924;
 }
+
 
 .px-15 {
     padding: 0 var(--defaultPadding);
@@ -39,4 +41,12 @@ h2 {
 .imgProjetos {
     border-radius: .3rem;
     box-shadow: 1px 1px 25px 2px black;
+
+    max-width: 650px;
 }
+
+.sobremim p {
+    max-width: 60%;
+    font-size: 1.5rem;
+}
+
