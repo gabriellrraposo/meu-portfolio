@@ -33,5 +33,10 @@ nav {
 }
 
 h2 {
-  color: white;
+    color: white;
+}
+
+.imgProjetos {
+    border-radius: .3rem;
+    box-shadow: 1px 1px 25px 2px black;
 }
