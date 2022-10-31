@@ -70,3 +70,32 @@ h2 {
 .imgCursos {
     padding-right: 5%;
 }
+
+.formContato input {
+    width: 40%;
+    height: 35px;
+}
+
+.formContato textarea {
+    width: 50%;
+    height: 400px;
+}
+
+.formContato input, .formContato textarea {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+.formContato input:focus, .formContato textarea:focus {
+    outline: none;
+    border-color: #e0a901;
+}
+
+.formContato input::placeholder, .formContato textarea::placeholder {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.contato button {
+    width: 15%;
+}
