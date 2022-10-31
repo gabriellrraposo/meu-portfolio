@@ -12,6 +12,9 @@ header {
     background-color: #161924;
 }
 
+li:hover {
+    color: #e0a901;
+}
 
 .px-15 {
     padding: 0 var(--defaultPadding);
@@ -97,5 +100,13 @@ h2 {
 }
 
 .contato button {
+    width: 15%;
+}
+
+footer i {
+    font-size: 30px;
+}
+
+.iconesFooter {
     width: 15%;
 }
