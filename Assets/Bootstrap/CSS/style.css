@@ -52,6 +52,10 @@ h2 {
     max-width: 650px;
 }
 
+.containerProjetos {
+    margin-bottom: 2%;
+}
+
 .sobremim p {
     max-width: 60%;
     font-size: 1.5rem;
@@ -107,7 +111,63 @@ footer i {
     width: 15%;
 }
 
+@media screen and (max-width: 1480px) {
+    .containerIconesSobreMim {
+        width: 25%;
+    }
+    
+    .iconesFooter {
+        width: 25%;
+    }
 
+    #projects {
+        text-align: center;
+    }
+
+    .containerProjetos {
+        flex-direction: column;
+    }
+
+    .containerProjetos a {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1172px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills div {
+        margin-bottom: 7%;
+    }
+
+    .containerSobreMim {
+        flex-direction: column;
+    }
+
+    .sobremim {
+        align-items: center;
+    }
+
+    .containerIconesSobreMim {
+        margin-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 863px) {
+    .imgProjetos {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .imgProjetos {
+        width: 300px;
+    }
+}
 
 /* ------------------- Radial Progress Bar -------------------------- */
 
@@ -146,3 +206,5 @@ div[role="progressbar"]::before {
     counter-reset: percentage var(--value);
     content: counter(percentage) '%';
 }
+
+

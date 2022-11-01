@@ -40,14 +40,14 @@
                     <h1 class="fw-bold text-white">Olá, meu nome é<br>Gabriel Raposo!</h1>
                     <h3 class="text-white fw-light text-secondary">Desenvolvedor Web</h3>
                     <p class="text-white fw-lighter" id="paragrafoIntroducao">Sou proativo, disposto a aprender e gosto muito de trabalhar em equipe. Procuro sempre trabalhar com leveza e  manter a qualidade e a pontualidade.</p>
-                    <div class="d-flex justify-content-between mt-5">
+                    <div class="d-flex justify-content-between mt-5 flex-column flex-lg-row">
                         <button class="btn btn-warning">
                             <a href="" class="text-decoration-none text-dark">
                                 <i class="fa-solid fa-briefcase"></i>
                                 Tarbalhe Comigo
                             </a>
                         </button>
-                        <button class="btn btn-warning">
+                        <button class="btn btn-warning mt-3 mt-lg-0">
                             <a href="" class="text-decoration-none text-dark">
                                 <i class="fa-solid fa-download"></i>
                                 Meu Currículo
@@ -60,7 +60,7 @@
                 <img src="./Assets/Imagens/EU.png" alt="Cartoon Gabriel Raposo" width="300px">
             </div>
         </section>
-        <section class="d-flex px-15 justify-content-between">
+        <section class="skills d-flex px-15 justify-content-between">
             <div class="text-center">
                 <h4 class="text-white mb-4">HTML</h4>
                 <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="--value:80"></div>
@@ -82,15 +82,15 @@
         <section class="px-15 my-10" id="projects">
             <h2 class="mb-5">Meus principais projetos</h2>
             <div class="d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-between">
+                <div class="containerProjetos d-flex justify-content-between">
                     <a href="https://clonenetflix-gabrielraposo.netlify.app" target="_blank"><img src="./Assets/Imagens/gameverse.png" class="imgProjetos"></a>
                     <a href="https://la-vie.netlify.app/" target="_blank"><img src="./Assets/Imagens/lavie.png" class="imgProjetos"></a>
                 </div>
-                <div class="d-flex justify-content-between mt-5">
+                <div class="containerProjetos d-flex justify-content-between">
                     <a href="https://cotemig-clone.netlify.app" target="_blank"><img src="./Assets/Imagens/cotemig.png" class="imgProjetos"></a>
                     <a href="https://meu-jogo-da-velha-gabriel.netlify.app" target="_blank"><img src="./Assets/Imagens/jogodavelha.png" class="imgProjetos"></a>
                 </div>
-                <div class="d-flex justify-content-between mt-5">
+                <div class="containerProjetos d-flex justify-content-between">
                     <a href="https://github.com/gabriellrraposo/login-instagram-clone" target="_blank"><img src="./Assets/Imagens/instagram.png" class="imgProjetos"></a>
                     <a href="https://github.com/gabriellrraposo/Reproducao-Layouts" target="_blank"><img src="./Assets/Imagens/reproducaolayout.png" class="imgProjetos"></a>
                 </div>
@@ -98,7 +98,7 @@
         </section>
         <section class="sobremim px-15 my-10 d-flex flex-column" id="about">
             <h2 class="mb-4">Um pouco mais sobre mim</h2>
-            <div class="containerSobreMim d-flex flex-row justify-content-between align-items-center">
+            <div class="containerSobreMim d-flex flex-lg-row justify-content-between align-items-center">
                 <p class="text-white fw-lighter">
                     Tenho 17 anos, estou no 2º ano do ensino médio técnico do Cotemig e nasci em Nova Lima - MG. Gosto muito de estar com meus amigos, seja jogando, saindo ou apenas conversando. Também adoro praticar esportes, jogar videogames e assistir vídeos no youtube. Acho muito interessante estudar sobre a mente e comportamentos humanos, é muito importante entender como nós funcionamos para sabermos a melhor forma de agir. Ter fé, prioridades e constância, para mim, são as coisas mais importantes da vida.
                 </p>
@@ -143,7 +143,7 @@
         </section>
     </main>
     <footer class="px-15">
-        <nav class="navbar navbar-expand-md justify-content-start justify-content-md-between flex-column flex-md-row py-3">
+        <nav class="navbar navbar-expand-md justify-content-start justify-content-between flex-row py-3">
             <ul class="navbar-nav justify-content-between">
                 <li class="nav-item"><a href="#home" class="nav-link text-white">Início</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link text-white">Habilidades</a></li>
