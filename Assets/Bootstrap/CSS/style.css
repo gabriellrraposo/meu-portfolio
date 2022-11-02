@@ -168,6 +168,10 @@ footer i {
     .imgProjetos {
         width: 500px;
     }
+
+    .introducao {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 700px) {
