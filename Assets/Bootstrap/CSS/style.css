@@ -197,7 +197,17 @@ footer i {
         font-size: 1.1rem;
     }
 
-    
+    .contato form input, .contato form textarea {
+        width: 100%;
+    }
+
+    .contato form textarea {
+        height: 200px;
+    }
+
+    .contato button {
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 700px) {
