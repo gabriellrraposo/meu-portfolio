@@ -214,6 +214,16 @@ footer i {
     .imgProjetos {
         width: 300px;
     }
+
+    .curso .andamento {
+        font-size: .8rem;
+    }
+
+    .containerIconesSobreMim, .iconesFooter {
+        width: 40%;
+    }
+
+    
 }
 
 /* ------------------- Radial Progress Bar -------------------------- */
