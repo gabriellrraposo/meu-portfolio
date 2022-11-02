@@ -112,7 +112,6 @@ footer i {
 }
 
 .skill {
-    
     background-color: #191D2B;
     box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.459);
     border-radius: .2rem;
@@ -171,6 +170,10 @@ footer i {
         width: 250px;
     }
 
+    .imgCursos img {
+        width: 120px;
+    }
+
 }
 
 @media screen and (max-width: 863px) {
@@ -181,6 +184,20 @@ footer i {
     .introducao {
         flex-direction: column-reverse;
     }
+
+    .curso h4 {
+        font-size: 1.1rem;
+    }
+
+    .curso span {
+        font-size: 1rem;
+    }
+
+    .curso h5 {
+        font-size: 1.1rem;
+    }
+
+    
 }
 
 @media screen and (max-width: 700px) {
