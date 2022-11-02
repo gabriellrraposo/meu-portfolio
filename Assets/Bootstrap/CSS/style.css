@@ -67,7 +67,7 @@ h2 {
 }
 
 .containerSobreMim img {
-    box-shadow: 1px 1px 20px 1px black;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.603);
 }
 
 .imgCursos {
@@ -109,6 +109,13 @@ footer i {
 
 .iconesFooter {
     width: 15%;
+}
+
+.skill {
+    
+    background-color: #191D2B;
+    box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.459);
+    border-radius: .2rem;
 }
 
 @media screen and (max-width: 1480px) {
