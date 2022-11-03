@@ -1,0 +1,42 @@
+body {
+    background-color: #161924;
+    font-family: 'Jost', sans-serif;
+}
+
+.container {
+    background-color: #202435;
+    width: 30%;
+    position: relative;
+    top: 100px;
+}
+
+
+.container p {
+    font-size: 20px;
+    line-height: 1.2rem;
+}
+
+@media screen and (max-width: 1141px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .container {
+        width: 100%;
+        top: 200px;
+    }
+}
